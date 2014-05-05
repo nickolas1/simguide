@@ -8,7 +8,7 @@ This directory contains reduced FITS files from three simulations of a 10pc box.
 The simulation directories
 --------------------------
 ###Periodic
-The 10pc box is periodic in all directions. (This is the simulation described in that paper).
+The 10pc box is periodic in all directions. (This is very similar the simulation described in that paper).
 
 * mean number density 100 cm^-3, total mass 5700 Msun  
 
@@ -16,13 +16,13 @@ The 10pc box is periodic in all directions. (This is the simulation described in
 
 * isothermal equation of state 
 
-* base computational grid 1024^3 
+* base computational grid 256^3 
 
 * max effective resolution 16384^3
 
 
 ###Isolated
-The 10 pc cube is isolated, with outflow boundaries, but weakly inflowing boundary conditions. This sounds a little weird, but all it means is that gas that leaves the cube edge due to its initial velocity is lost from the simulation, but there is a steady low velocity, low density, high temperature inflow containing the initial gas. the inflow parameters are:
+The 10 pc cube is isolated, with outflow boundaries, but weakly inflowing boundary conditions. The grid setup and initial conditions are identical to the Periodic run. This sounds a little weird, but all it means is that gas that leaves the cube edge due to its initial velocity is lost from the simulation, but there is a steady low velocity, low density, high temperature inflow containing the initial gas. the inflow parameters are:
 
 * density: 0.1 cm^-3 with mu = 1.281 
 

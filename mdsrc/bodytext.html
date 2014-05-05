@@ -8,19 +8,19 @@
 
 <h3>Periodic</h3>
 
-<p>The 10pc box is periodic in all directions. (This is the simulation described in that paper).</p>
+<p>The 10pc box is periodic in all directions. (This is very similar the simulation described in that paper).</p>
 
 <ul>
 <li><p>mean number density 100 cm^-3, total mass 5700 Msun  </p></li>
 <li><p>Mach 8 turbulence </p></li>
 <li><p>isothermal equation of state </p></li>
-<li><p>base computational grid 1024^3 </p></li>
+<li><p>base computational grid 256^3 </p></li>
 <li><p>max effective resolution 16384^3</p></li>
 </ul>
 
 <h3>Isolated</h3>
 
-<p>The 10 pc cube is isolated, with outflow boundaries, but weakly inflowing boundary conditions. This sounds a little weird, but all it means is that gas that leaves the cube edge due to its initial velocity is lost from the simulation, but there is a steady low velocity, low density, high temperature inflow containing the initial gas. the inflow parameters are:</p>
+<p>The 10 pc cube is isolated, with outflow boundaries, but weakly inflowing boundary conditions. The grid setup and initial conditions are identical to the Periodic run. This sounds a little weird, but all it means is that gas that leaves the cube edge due to its initial velocity is lost from the simulation, but there is a steady low velocity, low density, high temperature inflow containing the initial gas. the inflow parameters are:</p>
 
 <ul>
 <li><p>density: 0.1 cm^-3 with mu = 1.281 </p></li>
